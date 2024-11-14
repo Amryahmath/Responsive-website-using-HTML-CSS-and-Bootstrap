@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ava's Expeditions</title>
+    <!-- css -->
+    <link rel="stylesheet" href="./style.css">
+    <!--font awesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poiret+One&display=swap" rel="stylesheet">
+    <!--Bootsrap cdn link  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+
+</head>
+<body>
+    <div id="main-container">
+        <!-- navbar -->
+        <header>
+            <nav class="navbar navbar-expand-lg bg-transparent" data-bs-theme="dark" >
+                <div class="container-fluid">
+                <!-- Logo -->
+                <a class="navbar-brand" href="#"><img src="./images/Ava_s_Expeditions logo.png" alt="Ava's Expeditions"></a>
+                <!-- Toggle button -->
+                <button class="navbar-toggler shadow-none border-0 nav-toggle-button" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Side-Bar -->
+                <div class="offcanvas offcanvas-start side-bar" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+
+                    <!-- SideBar Header -->
+                    <div class="offcanvas-header text-white border-bottom">
+                        <!-- sidebar logo -->
+                        <a class="navbar-brand" href="#"><img src="./images/Ava_s_Expeditions logo.png" alt="Ava's Expeditions"></a>
+                        <!-- sidebar close button -->
+                        <button type="button" class="btn-close btn-close-white shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+
+                    <!-- Sidebar Body -->
+                    <div class="offcanvas-body d-flex flex-column flex-lg-row p-4 p-lg-0">
+                        <ul class="navbar-nav justify-content-center align-items-center fs-5 flex-grow-1 pe-3 gap-4">
+                            <li class="nav-item n-item">
+                                <a class="nav-link active text-light n-link" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item n-item">
+                                <a class="nav-link text-light n-link" aria-current="page" href="#">Blogs</a>
+                            </li>
+                            <li class="nav-item n-item">
+                                <a class="nav-link text-light n-link" aria-current="page" href="#">About</a>
+                            </li>
+                            <li class="nav-item n-item">
+                                <a class="nav-link text-light n-link" aria-current="page" href="#">Travel Guides</a>
+                            </li>
+                        </ul>
+                        <!-- Travel with me btn -->
+                        <div class="d-flex justify-content-center align-items-center travel-with-me pe-3">
+                        <a href="" class="text-white text-decoration-none px-4 py-2 rounded-4">Travel with me</a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+              </nav>
+        </header>
+        <!-- home -->
+        <section id="home">
+            <div id="carouselExampleInterval" class="carousel slide " data-bs-ride="carousel">
+                <div class="carousel-inner mb-0">
+                    <div class="carousel-item active c-item" data-bs-interval="2000">
+                        <img src="./images/home/img3.jpg" class="d-block w-100 c-img" alt="...">
+                        <div class="carousel-caption d-flex flex-column justify-content-around align-items-center text-center">
+                            <h5>Welcome to <span>Ava's Expeditions</span></h5>
+                            <p>Hi I'm Ava, You can find my travel experiences here. Hope it will motivate you to start your dream journey.</p>
+                        </div>
+                      </div>
+                  <div class="carousel-item c-item" >
+                    <img src="./images/home/img2.jpg" class="d-block w-100 c-img" alt="...">
+                    <div class="carousel-caption d-flex flex-column justify-content-around align-items-center text-center" data-bs-interval="2000">
+                        <h5>Welcome to <span>Ava's Expeditions</span></h5>
+                        <p>Hi I'm Ava, You can find my travel experiences here. Hope it will motivate you to start your dream journey.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item c-item"data-bs-interval="2000">
+                    <img src="./images/home/Tea Gardens, Munnar, Kerala, India.jpg" class="d-block w-100 c-img" alt="Tea Gardens, Munnar, Kerala, India">
+                    <div class="carousel-caption d-flex flex-column justify-content-around align-items-center text-center">
+                        <h5>Welcome to <span>Ava's Expeditions</span></h5>
+                        <p>Hi I'm Ava, You can find my travel experiences here. Hope it will motivate you to start your dream journey.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item c-item"data-bs-interval="2000">
+                    <img src="./images/home/img1.jpg" class="d-block w-100 c-img" alt="">
+                    <div class="carousel-caption d-flex flex-column justify-content-around align-items-center text-center">
+                        <h5>Welcome to <span>Ava's Expeditions</span></h5>
+                        <p>Hi I'm Ava, You can find my travel experiences here. Hope it will motivate you to start your dream journey.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item c-item"data-bs-interval="2000">
+                    <img src="./images/home/Eiffel Tower, Paris, France.jpg" class="d-block w-100 c-img" alt="Eiffel Tower, Paris, France">
+                    <div class="carousel-caption d-flex flex-column justify-content-around align-items-center text-center">
+                        <h5>Welcome to <span>Ava's Expeditions</span></h5>
+                        <p>Hi I'm Ava, You can find my travel experiences here. Hope it will motivate you to start your dream journey.</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </section>
+        <!-- country scroll -->
+        <section id="country-scroll">
+            <div class="country country1">
+                <img  src="./images/country-icons/australia-svgrepo-com.svg" alt="">
+                <span>Australia</span>
+            </div>
+            <div class="country country2">
+                <img  src="./images/country-icons/brazil-brazil-svgrepo-com.svg" alt="">
+                <span>Brazil</span>
+            </div>
+            <div class="country country3">
+                <img  src="./images/country-icons/canada-canada-svgrepo-com.svg" alt="">
+                <span>Canada</span>
+            </div>
+            <div class="country country4">
+                <img  src="./images/country-icons/china-map-china-country-svgrepo-com.svg" alt="">
+                <span>China</span>
+            </div>
+            <div class="country country5">
+                <img  src="./images/country-icons/france-vector-svgrepo-com.svg" alt="">
+                <span>France</span>
+            </div>
+            <div class="country country6">
+                <img  src="./images/country-icons/india-map-country-svgrepo-com.svg" alt="">
+                <span>India</span>
+            </div>
+            <div class="country country7">
+                <img  src="./images/country-icons/italy-map-country-land-svgrepo-com.svg" alt="">
+                <span>Italy</span>
+            </div>
+            <div class="country country8">
+                <img  src="./images/country-icons/japan-map-country-land-svgrepo-com.svg" alt="">
+                <span>Japan</span>
+            </div>
+            <div class="country country9">
+                <img  src="./images/country-icons/mexico-map-svgrepo-com.svg" alt="">
+                <span>Mexico</span>
+            </div>
+            <div class="country country10">
+                <img  src="./images/country-icons/south-africa-map-country-land-svgrepo-com.svg" alt="">
+                <span>South Africa</span>
+            </div>
+            <div class="country country11">
+                <img  src="./images/country-icons/south-korea-map-country-land-svgrepo-com.svg" alt="">
+                <span>South Korea</span>
+            </div>
+            <div class="country country12">
+                <img  src="./images/country-icons/spain-svgrepo-com.svg" alt="">
+                <span>Spain</span>
+            </div>
+            <div class="country country13">
+                <img  src="./images/country-icons/switzerland-map-country-land-svgrepo-com.svg" alt="">
+                <span>Switzerland</span>
+            </div>
+            <div class="country country14">
+                <img  src="./images/country-icons/thailand-thailand-svgrepo-com.svg" alt="">
+                <span>Thailand</span>
+            </div>
+            <div class="country country15">
+                <img  src="./images/country-icons/united-states-map-usa-america-svgrepo-com.svg" alt="">
+                <span>USA</span>
+            </div>
+        </section>
+        <!-- Travel blogs -->
+         <section id="travel-blogs" class="container">
+            <div class="section-head">
+                My Favourite Stories
+            </div>
+            <div class="section-body">
+                <div class="grid-container">
+                    <div class="bgcard bg-card1">
+                        <div class="bgcard-body">
+                            <div class="location">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <span>Paris</span>
+                            </div>
+                            <p>Walking on the streets with The Paris Beauty...</p>
+                            <a href="">Read More...</a>
+                        </div>
+                    </div>
+                    <div class="bgcard bg-card2">
+                        <div class="bgcard-body">
+                            <div class="location">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <span>Bali</span>
+                            </div>
+                            <p>Unveiling Bali...</p>
+                            <a href="">Read More...</a>
+                        </div>
+                    </div>
+                    <div class="bgcard bg-card3">
+                        <div class="bgcard-body">
+                            <div class="location">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <span>Greece</span>
+                            </div>
+                            <p>Strolling Through the Timeless Charm of Santorini...</p>
+                            <a href="">Read More...</a>
+                        </div>
+                    </div>
+                    <div class="bgcard bg-card4">
+                        <div class="bgcard-body">
+                            <div class="location">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <span>Dubrovnik, Croatia</span>
+                            </div>
+                            <p>A visit to the historic old town...</p>
+                            <a href="">Read More...</a>
+                        </div>
+                    </div>
+                    <div class="bgcard bg-card5">
+                        <div class="bgcard-body">
+                            <div class="location">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <span>singapore</span>
+                            </div>
+                            <p>A week in the garden city...</p>
+                            <a href="">Read More...</a>
+                        </div>
+                    </div>
+                    <div class="bgcard bg-card6">
+                        <div class="bgcard-body">
+                            <div class="location">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <span>Paro valley, Bhutan</span>
+                            </div>
+                            <p>Mesmerised by the natural beauty paro...</p>
+                            <a href="">Read More...</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="more-stories">
+                    <a href="">Read More Stories</a>
+                </div>
+            </div>
+         </section>
+        <!-- About -->
+        <section id="about" >
+            <div class="about-container">
+                <div 
+                class="about-div">
+                    <h2>About Ava</h2>
+                    <h4>
+                        <span><i class="fa-solid fa-quote-left"></i></span>
+                        <span><i class="fa-solid fa-quote-right"></i></span>
+                        Exploring the world one adventure at a time, finding beauty in every corner, and sharing stories along the way  </h4>
+
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi adipisci aliquid accusamus dolores. Esse architecto maiores natus soluta repellendus! Et quod modi reprehenderit ad optio! Ipsa dolor totam accusantium molestiae! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi corporis incidunt saepe deleniti voluptatum ullam harum eius? Asperiores officia nobis obcaecati, doloribus enim tempora vitae libero commodi vero quam dicta.</p>
+                    <a class="know-more" href="">Know more about me</a>
+                </div>
+                <div class="about-div">
+                    <div class="img-about-div">
+                        <img src="./images/about/tamara-bellis-pNKvgaBfJio-unsplash.jpg" alt="">
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        <!-- packing guides -->
+        <section id="tips-scroll">
+            <div class="scroll-container">
+                <!-- packing guides -->
+                <div class="scroll-div scroll-div1">
+                    <div class="tip-div"></div>
+                    <div class="tip-div">
+                        <h4>Confused about what to pack?</h4>
+                        <p>Refer my packing guides to get an idea.</p>
+                        <a class="know-more" href="">Packing Guides</a>
+                    </div>
+                </div>
+                <!-- shop my favourite travel essentials -->
+                <div class="scroll-div scroll-div2">
+                    <div class="tip-div"></div>
+                    <div class="tip-div">
+                        <h4>Got confused while shopping for your next trip.</h4>
+                        <p>Here are my top favourite travel essentials which will your trip amazing in your budget.</p>
+                        <a class="know-more" href="">Shop travel essentials</a>
+                    </div>
+                </div>
+                <!-- Start planning your next trip with my travel guides - How to plan your next trip -->
+                <div class="scroll-div scroll-div3">
+                    <div class="tip-div"></div>
+                    <div class="tip-div">
+                        <h4>Struggling while planning itinerary !</h4>
+                        <p>Check out my travel itinerary and experiences.</p>
+                        <a class="know-more" href="">Plan your trip</a>
+                    </div>
+                </div>
+                <!-- subscribe to my newsletter -->
+                <div class="scroll-div scroll-div4">
+                    
+                    <div class="tip-div">
+                        <h4>Enjoying reading My Travel Stoires</h4>
+                        <p>Be my travel pal by subscribing to my travel newsletter.</p>
+                        <a class="know-more" href="#newsletter">Subscribe to my newsletter</a>
+                    </div>
+                    <div class="tip-div"></div>
+                </div>
+            </div>
+            <div class="scroll-container">
+                <!-- packing guides -->
+                <div class="scroll-div scroll-div1">
+                    <div class="tip-div"></div>
+                    <div class="tip-div">
+                        <h4>Confused about what to pack?</h4>
+                        <p>Refer my packing guides to get an idea.</p>
+                        <a class="know-more" href="">Packing Guides</a>
+                    </div>
+                </div>
+                <!-- shop my favourite travel essentials -->
+                <div class="scroll-div scroll-div2">
+                    <div class="tip-div"></div>
+                    <div class="tip-div">
+                        <h4>Got confused while shopping for your next trip.</h4>
+                        <p>Here are my top favourite travel essentials which will your trip amazing in your budget.</p>
+                        <a class="know-more" href="">Shop travel essentials</a>
+                    </div>
+                </div>
+                <!-- Start planning your next trip with my travel guides - How to plan your next trip -->
+                <div class="scroll-div scroll-div3">
+                    <div class="tip-div"></div>
+                    <div class="tip-div">
+                        <h4>Struggling while planning itinerary!</h4>
+                        <p>Check out my travel itinerary and experiences.</p>
+                        <a class="know-more" href="">Plan your trip</a>
+                    </div>
+                </div>
+                <!-- subscribe to my newsletter -->
+                <div class="scroll-div scroll-div4">
+                    <div class="tip-div">
+                        <h4>Enjoying reading My Travel Stoires</h4>
+                        <p>Be my travel pal by subscribing to my travel newsletter.</p>
+                        <a class="know-more" href="#newsletter">Subscribe to my newsletter</a>
+                    </div>
+                    <div class="tip-div"></div>
+                </div>
+            </div>
+
+            <div class="scroll-container">
+                <!-- packing guides -->
+                <div class="scroll-div scroll-div1">
+                    <div class="tip-div"></div>
+                    <div class="tip-div">
+                        <h4>Confused about what to pack?</h4>
+                        <p>Refer my packing guides to get an idea.</p>
+                        <a class="know-more" href="">Packing Guides</a>
+                    </div>
+                </div>
+                <!-- shop my favourite travel essentials -->
+                <div class="scroll-div scroll-div2">
+                    <div class="tip-div"></div>
+                    <div class="tip-div">
+                        <h4>Got confused while shopping for your next trip.</h4>
+                        <p>Here are my top favourite travel essentials which will your trip amazing in your budget.</p>
+                        <a class="know-more" href="">Shop travel essentials</a>
+                    </div>
+                </div>
+                <!-- Start planning your next trip with my travel guides - How to plan your next trip -->
+                <div class="scroll-div scroll-div3">
+                    <div class="tip-div"></div>
+                    <div class="tip-div">
+                        <h4>Struggling while planning itinerary!</h4>
+                        <p>Check out my travel itinerary and experiences.</p>
+                        <a class="know-more" href="">Plan your trip</a>
+                    </div>
+                </div>
+                <!-- subscribe to my newsletter -->
+                <div class="scroll-div scroll-div4">
+                    <div class="tip-div">
+                        <h4>Enjoying reading My Travel Stoires</h4>
+                        <p>Be my travel pal by subscribing to my travel newsletter.</p>
+                        <a class="know-more" href="#newsletter">Subscribe to my newsletter</a>
+                    </div>
+                    <div class="tip-div"></div>
+                </div>
+            </div>
+            
+        </section>
+        <!-- footer -->
+        <footer>
+            <div  class="footer-subdiv">
+                <div class="footer-div main-footer-div">
+                    <img id="logo" src="./images/Ava_s_Expeditions logo.png" alt="Ava's Expeditions">
+                    <h4>Ava's Expeditions</h4>
+                    <button id="newsletter" type="button" class="btn know-more" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Subscribe to my newsletter
+                    </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" data-bs-theme="dark">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5 text-center" id="exampleModalLabel">Subscribe to my Newsletter</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <form>
+                                    
+                                    <div class="mb-3">
+                                        <label for="exampleInputPassword1" class="form-label">Username</label>
+                                        <input type="text" class="form-control" id="exampleInputPassword1">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                                    </div>
+                                    <div class="mb-3 form-check">
+                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                        <label class="form-check-label" for="exampleCheck1">By checking the box, you agree to recieve newsletters from Ava's Expeditions monthly.</label>
+                                    </div>
+                                    </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Submit</button>
+                            </div>
+                            </div>
+                        </div>
+                        </div>
+
+                </div>
+                <div class="footer-div">
+                    <li class=" main">Navigation</li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#blogs">Blogs</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#guides">Packing guides</a></li>
+                </div>
+                <div class="footer-div">
+                    <li class=" main">Latest stories</li>
+                    <li><a href="#">Walking on the streets with The Paris Beauty...</a></li>
+                    <li><a href="#">Walking on the streets with The Paris Beauty...</a></li>
+                    <li><a href="#">Walking on the streets with The Paris Beauty...</a></li>
+                </div>
+                <div class="footer-div">
+                    <li class=" main">Contact Me</li>
+                    <li>avasexpeditons@gmail.com</li>
+                    <div class="icon-collections d-flex justify-content-around">
+                        <!-- X -->
+                        <div class="icon">
+                            <a target="_blank" href="h">
+                                <i class="fa-brands fa-x-twitter brands"></i>
+                            </a>
+                        </div>
+                        <!-- Facebook -->
+                        <div class="icon">
+                            <a target="_blank" href="">
+                                <i class="fa-brands fa-facebook-f brands"></i>
+                            </a>
+                        </div>
+                        <!-- Instagram -->
+                        <div class="icon">
+                            <a target="_blank" href="">
+                                <i class="fa-brands fa-instagram brands"></i>
+                            </a>
+                        </div>
+                        <!-- Mail -->
+                        <div class="icon">
+                            <a target="_blank" href="">
+                                <i class="fa-regular fa-envelope brands"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+<!-- Boostrap script -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</html>
